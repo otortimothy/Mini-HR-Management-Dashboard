@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+div .progress {
+  position: relative;
+  width: 92px;
+  height: 92px;
+  border-radius: 5%;
+}
+
+svg {
+  width: 7rem;
+  height: 7rem;
+}
+
+svg circle {
+  fill: none;
+  stroke: green;
+  stroke-width: 12;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+  stroke-dasharray: 97;
+  stroke-dashoffset: 20;
+}
+
+.progress .number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
